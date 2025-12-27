@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GearGuard
 
 **The Ultimate Maintenance Tracker**
@@ -506,3 +507,6 @@ The application uses Gmail SMTP for sending emails. To set up:
 cd backend
 node -e "require('./src/utils/email').sendPasswordResetEmail('test@example.com', 'test-token')"
 ```
+=======
+# GearGuard
+>>>>>>> d434c11c59c9c5276cd1a3e61c39d2442915b603
