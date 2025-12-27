@@ -1,0 +1,10 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hand-drawn wrench with thick strokes -->
+  <path d="M70 18C70 18 72 16 75 18C78 20 77 23 75 25L60 40C58 42 55 42 53 40L51 38C49 36 49 33 51 31L66 16C68 14 70 15 70 18Z" fill="#00CED1" stroke="#00A09D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="73" cy="20" r="7" fill="#FFB900" stroke="#E6A700" stroke-width="3"/>
+  <path d="M55 36L23 68C20 71 17 71 15 69L14 68C12 66 12 63 15 60L47 28" fill="#00CED1" stroke="#00A09D" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="53" cy="34" r="5" fill="#FFD700"/>
+  <!-- Hand-drawn imperfections -->
+  <path d="M71 19C71.5 18.7 72 18.4 72.5 18.6" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <path d="M25 66C24 67 23.5 67.5 23 68" stroke="#008C89" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+</svg>
