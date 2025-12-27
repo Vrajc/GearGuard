@@ -252,30 +252,6 @@ The frontend will start on `http://localhost:3000`
 - `PUT /api/equipment/:id` - Update equipment (Manager/Admin)
 - `DELETE /api/equipment/:id` - Delete equipment (Admin)
 
-## Environment Variables
-
-### Backend (.env)
-```env
-PORT=5000
-MONGODB_URI=mongodb+srv://vrajc494:VrajmongoDB@cluster0.7yfpgvm.mongodb.net/gearguard
-JWT_SECRET=your_jwt_secret_key_here_change_in_production
-NODE_ENV=development
-
-# Email Configuration (Gmail)
-EMAIL_HOST=smtp.gmail.com
-EMAIL_PORT=587
-EMAIL_USER=your-email@gmail.com
-EMAIL_PASSWORD=your-gmail-app-password
-EMAIL_FROM=GearGuard <noreply@gearguard.com>
-
-# Frontend URL
-FRONTEND_URL=http://localhost:3000
-```
-
-### Frontend (.env.local)
-```env
-NEXT_PUBLIC_API_URL=http://localhost:5000/api
-```
 
 ## Database Models
 
@@ -363,30 +339,6 @@ npm start        # Start production server
 - **Security:** bcryptjs, CORS
 - **Dev Tools:** Nodemon
 
-## Project Status
-
-This is a basic framework with:
-✅ User authentication (register/login)
-✅ Protected routes
-✅ CRUD operations for items
-✅ Role-based access control
-✅ MongoDB integration
-✅ Responsive UI with Tailwind CSS
-
-## Next Steps
-
-To extend this framework, consider adding:
-- Email verification for new accounts
-- Two-factor authentication (2FA)
-- File upload for item images
-- Advanced search and filtering
-- Dashboard with analytics
-- Notification system
-- Audit logs
-- API rate limiting
-- Comprehensive testing
-- Password history to prevent reuse
-- Account lockout after failed attempts
 
 ## Contributing
 
